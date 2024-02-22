@@ -16,7 +16,7 @@ Can you figure out what she was trying to say?
 
 brck{1746200913432170593.11_1740398198542172490.3_789837700517945346.13}
  
-<img src="./book-cipher.jpg" width="500">
+<img src="./book_cipher.jpg" width="500">
 
 ## Exploit
 

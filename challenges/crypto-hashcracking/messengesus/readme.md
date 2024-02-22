@@ -1,8 +1,8 @@
 ## Background
 
-  Author: Shoaloak and spipm
-  Category: Crypto / Hackcracking
-  Difficulty: Easy
+    Author: Shoaloak and spipm
+    Category: Crypto / Hackcracking
+    Difficulty: Easy
 
 The story of this challenge references the [RNGesus](https://knowyourmeme.com/memes/rngesus) meme.
 

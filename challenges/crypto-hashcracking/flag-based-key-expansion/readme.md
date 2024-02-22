@@ -1,8 +1,8 @@
 ## Background
 
- Author: spipm
- Category: Crypto / Hackcracking
- Difficulty: Medium to Hard
+    Author: spipm
+    Category: Crypto / Hashcracking
+    Difficulty: Medium to Hard
 
 ## Technical
 

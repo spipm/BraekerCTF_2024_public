@@ -1,8 +1,8 @@
 ## Background
 
- Author: spipm
- Category: Binaries / Reversing
- Difficulty: Easy to Medium
+    Author: spipm
+    Category: Binaries / Reversing
+    Difficulty: Easy to Medium
 
 Credits for the small assembly ELF to go Brian Raiter [Teensy ELF article](https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html).
 

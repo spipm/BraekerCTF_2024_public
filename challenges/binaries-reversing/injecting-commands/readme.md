@@ -1,8 +1,8 @@
 ## Background
 
- Author: spipm
- Category: Binaries / Reversing
- Difficulty: Hard
+    Author: spipm
+    Category: Binaries / Reversing
+    Difficulty: Hard
 
 Credits for the small Macho to go Kamil.S on [StackOverflow](https://stackoverflow.com/questions/32453849/minimal-mach-o-64-binary).
 

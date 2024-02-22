@@ -1,8 +1,8 @@
 ## Background
 
- Author: spipm
- Category: Binaries / Reversing
- Difficulty: Medium to Hard
+    Author: spipm
+    Category: Binaries / Reversing
+    Difficulty: Medium to Hard
 
 Credits for the tiny PE to go Alexander Sotirov's [Tiny PE article](http://www.phreedom.org/research/tinype/).
 

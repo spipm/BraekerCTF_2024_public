@@ -1,8 +1,8 @@
 ## Background
 
- Author: spipm
- Category: Binaries / Reversing
- Difficulty: Medium
+    Author: spipm
+    Category: Binaries / Reversing
+    Difficulty: Medium
 
 Credits for the small assembly ELF to go Brian Raiter [Teensy ELF article](https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html). The ROP chain is a variant of [this](https://www.exploit-db.com/exploits/46907
 by) exploit-db entry by rajvardhan.

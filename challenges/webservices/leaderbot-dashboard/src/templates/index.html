@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    .login-form button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .login-form button:hover {
+      background-color: #2980b9;
+    }
+
+    .status-bar {
+      background-color: rgba(46, 204, 113, 0.7);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Leaderbot dashboard</h2>
+  <form class="login-form" action="/login" method="post">
+    <input type="text" id="{{ USERNAME_FIELD }}" placeholder="{{ USERNAME_FIELD }}" required>
+    <input type="password" id="{{ PASSWORD_FIELD }}" placeholder="{{ PASSWORD_FIELD }}" required>
+    <button type="button" onclick="login()">Login</button>
+  </form>
+
+  <div class="status-bar" id="status-bar">
+    {{ message }}
+  </div>
+</div>
+
+
+<script>
+function login() {
+
+    var username = document.getElementById("{{ USERNAME_FIELD }}").value;
+    var password = document.getElementById("{{ PASSWORD_FIELD }}").value;
+    var data = JSON.stringify({"{{ USERNAME_FIELD }}": username, "{{ PASSWORD_FIELD }}": password});
+
+    document.getElementById("status-bar").innerHTML = 'Logging in..';
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/login", true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var json = JSON.parse(xhr.responseText);
+            if (json['result'] == 'success') {
+              document.getElementById("status-bar").innerHTML = 'Login success!';
+              document.location = '/success';
+            }
+            else {
+              document.getElementById("status-bar").innerHTML = 'Login failed';
+            }
+        }
+    };
+    
+    xhr.send(data);
+
+}
+</script>
+
+
+</body>
+</html>

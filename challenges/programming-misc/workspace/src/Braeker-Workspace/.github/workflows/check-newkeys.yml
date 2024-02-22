@@ -1,0 +1,36 @@
+name: Check New Public Keys
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  check_files:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: sudo apt-get install -y openssl
+          
+      - name: Validate keys
+        run: |
+          difficulty=10
+          
+          for file in $(ls ./pub_keys); do
+            echo "Processing key file: $file"
+
+            filename=./pub_keys/$file
+            {
+              raw_bytes=$(cat $filename | base64 -d -i) || true
+              spaces=$(echo $raw_bytes | grep -a -o -P '\x20' | tr -d '\n' | wc -c)
+            } 2>/dev/null
+            
+            if ! [[ $spaces -ge $difficulty ]]; then
+              echo "Error: Not enough PoW in key"
+              exit 1
+            fi
+
+          done

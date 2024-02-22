@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beacon dialer</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: 'Courier New', monospace;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const consoleText = {{render_words|safe}};
+
+    function typeText(text, index, speed) {
+      if (index < text.length) {
+        document.body.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(function() {
+          typeText(text, index, speed);
+        }, speed);
+      }
+    }
+
+    function startConsole() {
+      let index = 0;
+      const speed = 25;
+      consoleText.forEach((text, i) => {
+        setTimeout(function() {
+          document.body.innerHTML += "<br>";
+          typeText(text, 0, speed);
+        }, (i + 1) * 3000);
+      });
+    }
+
+    startConsole();
+  </script>
+</body>
+</html>

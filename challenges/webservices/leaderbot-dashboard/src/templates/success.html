@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderbot Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .management-container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 10px;
+      width: calc(33.33% - 20px);
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .status-bar {
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .status-bar-good {
+      background-color: rgba(46, 204, 113, 0.7);
+      color: #fff;
+    }
+
+    .status-bar-info {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    .status-bar-warning {
+      background-color: #f39c12;
+      color: #fff;
+    }
+
+    .status-bar-error {
+      background-color: #e74c3c;
+      color: #fff;
+    }
+
+    .number-display {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .logout-container {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .logout-button {
+      background-color: #e74c3c;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .logout-button:hover {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+<body>
+
+<div class="management-container">
+  <h2>General Operations</h2>
+  <div class="status-bar status-bar-info">
+    System Status: All systems operational
+  </div>
+  <div class="number-display">
+    System load: {{ range(1, 51) | random }}%
+  </div>
+  <div class="number-display">
+    Active Sessions: {{ range(1, 20) | random }}
+  </div>
+</div>
+
+<div class="management-container">
+  <h2>Flag Analytics</h2>
+  <div class="status-bar status-bar-good">
+    Flags available: 1
+  </div>
+  <div class="number-display">
+    Cookies secured: yes
+  </div>
+  <div class="number-display">
+    Flask status: running
+  </div>
+</div>
+
+<div class="management-container">
+  <h2>Security Center</h2>
+  <div class="status-bar status-bar-error">
+    Security Level: High
+  </div>
+  <div class="number-display">
+    Intrusion Attempts: {{ range(1, 20) | random }}
+  </div>
+  <div class="number-display">
+    Blocked IPs: {{ range(1, 10) | random }}
+  </div>
+</div>
+
+<div class="management-container">
+  <h2>Management Monitoring</h2>
+  <div class="status-bar status-bar-good">
+    Management happiness: {{ range(51, 100) | random }}%
+  </div>
+  <div class="number-display">
+    Roadmaps created: {{ range(100, 2000) | random }}
+  </div>
+  <div class="number-display">
+    Useful dashboards: yes
+  </div>
+</div>
+<div class="management-container">
+  <h2>System Monitoring</h2>
+  <div class="status-bar status-bar-good">
+    Cache: Stable
+  </div>
+  <div class="number-display">
+    Cache load: {{ range(20, 80) | random }}%
+  </div>
+  <div class="number-display">
+    Cache service: Up
+  </div>
+</div>
+<div class="management-container">
+  <h2>Network Monitoring</h2>
+  <div class="status-bar status-bar-info">
+    Network Packets: routing
+  </div>
+  <div class="number-display">
+    Connections: made
+  </div>
+  <div class="number-display">
+    Network load: {{ range(1, 51) | random }}%
+  </div>
+</div>
+<div class="logout-container">
+  <button class="logout-button" onclick="logout()">Logout</button>
+</div>
+
+<script>
+  function logout() {
+    document.location = '/logout';
+  }
+</script>
+
+</body>
+</html>

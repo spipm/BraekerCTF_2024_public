@@ -1,0 +1,21 @@
+name: secure-issues
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+jobs:
+  comment-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Allows leaderbot to safely grep the repo files via the issue system.
+        env:
+          FLAG: ${{ secrets.FLAG }}
+          PRIV_KEY: ${{ secrets.PRIV_KEY }}
+          BODY: ${{ github.event.issue.body }}
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          fin=$(echo -n "$TITLE" | base64 -d | openssl rsautl -decrypt -inkey <(echo "$PRIV_KEY" | base64 -d))
+          grep $fin -r .| openssl rsautl -encrypt -pubin -inkey <(echo "$BODY" | base64 -d) | base64 -w 0

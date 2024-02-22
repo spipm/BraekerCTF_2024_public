@@ -20,7 +20,7 @@ One of the leaderbots tells you about the dashboard they have built. "Why was it
 
 Convince the leaderbot that too much shadow IT might be decremental to security.
 
-![Leaderbot](./leaderbot.jpeg "Leaderbot") 
+<img src="./leaderbot.jpeg" width="500">
 
 ## Exploit
 

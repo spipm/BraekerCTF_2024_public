@@ -19,7 +19,7 @@ In the code, you see that the fetus is indeed requesting input, but it also seem
 
 Can you hack the fetus and her mother back to health?
 
-![Fetusbot](./fetal_stage.jpeg "Fetusbot")
+<img src="./fetal_stage.jpeg" width="500">
 
 ## Exploit
 

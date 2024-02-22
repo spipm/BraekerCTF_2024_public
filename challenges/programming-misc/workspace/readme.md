@@ -14,7 +14,7 @@ A workerbot guides you through one of their factories. "Our manager likes to mak
 
 Create an issue for the workers to help the working class stick it to the bot.
 
-![Workspace](./workflow.jpeg "Workspace") 
+<img src="./workflow.jpeg" width="500">
 
 ## Exploit
 

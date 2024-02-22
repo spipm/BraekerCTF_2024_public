@@ -14,7 +14,7 @@ This is IBM REXX code that was tested on an IBM mainframe. It is obfuscated and 
 
 "Obsolete? These bots must be abending. I'm working just fine you see. Young bots are the ones having all sorts of troubles, not us. We're maintained and properly managed. However, I do have this old code lying around, and I lost the documentation. Can you find it for me?"
 
-![The mainframe speaks](./old_robot.jpg "The mainframe speaks")
+<img src="./old_robot.jpg" width="500">
 
 ## Exploit
 

@@ -18,7 +18,7 @@ sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST --sport 1000:1550 -j DROP
 
 "Oops I dropped the flag! Better not let the other bots know. I'll send it to you OOB so they won't see the traffic." 
 
-![Dropped](./dropped.jpg "Dropped") 
+<img src="./dropped.jpg" width="500">
 
 ## Exploit
 

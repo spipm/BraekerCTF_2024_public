@@ -11,8 +11,8 @@ A web service accepts a phone number and does some operation on it. It shows a g
 ## Story
 
 Bots are developing this crazy idea of 'phone numbers' so they can directly contact each other without having to waste time on the internet. They're even developing an analog distributed database to increase productivity. Local leader bots will receive regular status updates from nearby bots. Check out the link to see the updates in action.
-
-![Dial](./dial.jpg "Dial") 
+ 
+<img src="./dial.jpg" width="500">
 
 ## Exploit
 

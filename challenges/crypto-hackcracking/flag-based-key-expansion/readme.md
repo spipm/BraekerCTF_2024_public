@@ -14,7 +14,7 @@ Through the trees you see a singing robot, rocking it on its keyboard. "Some day
 
 Can you help the robot recover its lyrics?
 
-![Flag-based key expansion](./key-expansion.jpg "Flag-based key expansion") 
+<img src="./key-expansion.jpg" width="500">
 
 ## Exploit
 

@@ -16,7 +16,7 @@ But what the other bots didn't realize was that this didn't make the bot happy a
 
 Can you help this poor bot execute commands to find direction?
 
-![Empty](./empty.jpg "Empty") 
+<img src="./empty.jpg" width="500">
 
 ## Exploit
 

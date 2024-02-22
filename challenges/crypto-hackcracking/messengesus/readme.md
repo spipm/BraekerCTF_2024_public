@@ -18,15 +18,15 @@ You encounter a bot meditating in the park. He opens his cameras and begins to s
 
 What do you think? Is it simple enough to be secure?
 
-![Messengesus](./messengesus.jpg "Messengesus") 
+<img src="./messengesus.jpg" width="500">
 
 *Second part of the challenge*
 
 The bot quickly turns away to scribble new lines in the holy code. He turns back, "Uh, well.. he..hear the word of RNGesus again! Praised be the secured code. No need to repeat what you've seen here."
 
 Can you praise this secured code?
-
-![Messengesus2](./messengesus2.jpeg "Messengesus2") 
+ 
+<img src="./messengesus2.jpg" width="500">
 
 ## Exploit
 

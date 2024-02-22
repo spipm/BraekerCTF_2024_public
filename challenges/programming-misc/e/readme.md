@@ -12,7 +12,7 @@ A challenge about how floats and the addition of floats work in cpp. There are t
 
 "Grrrrr". This robot just growls. The other bots tell you that it is angry because it can't count very high. Can you teach it how?
 
-![Epsilon](./Epsilon.jpg "Epsilon") 
+<img src="./Epsilon.jpg" width="500">
 
 ## Exploit
 

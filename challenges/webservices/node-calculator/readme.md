@@ -18,7 +18,7 @@ Sample request:
 (POST request, Content-Type is application/xml)
 <Node><location>testing</location></Node>
 
-![Calculator](./calculator.jpg "Calculator") 
+<img src="./calculator.jpg" width="500">
 
 ## Exploit
 

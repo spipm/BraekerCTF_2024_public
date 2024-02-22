@@ -16,7 +16,7 @@ The bot replies "It is called 'social media': We'll have everyone send messages 
 
 Do you see any way this can go wrong?
 
-![Stuffy](./social.jpg "Stuffy") 
+<img src="./social.jpg" width="500">
 
 ## Exploit
 

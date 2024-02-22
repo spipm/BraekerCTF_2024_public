@@ -14,7 +14,7 @@ This challenge encrypts every byte of the flag with AES in ECB mode. It randomiz
 
 Can you help the bot get the blocks in order?
 
-![Block construction](./block_construction.jpeg "Block construction")
+<img src="./block_construction.jpeg" width="500">
 
 ## Exploit
 

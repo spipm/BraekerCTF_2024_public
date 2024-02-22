@@ -22,7 +22,7 @@ After hearing about young computer problems, you have decided to become a comput
 
 Can you run the program for her? Are you able to figure out what's in her memory right before execution stops?
 
-![Robot ELF](./robot_elf.jpg "Robot ELF")
+<img src="./robot_elf.jpg" width="500">
 
 ## Exploit
 

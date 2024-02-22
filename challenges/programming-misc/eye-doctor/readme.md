@@ -14,7 +14,7 @@ A creaky old bot is zooming in and out of an eye chart. "Can you read the bottom
 
 You and the doctor look at the screenshot. Can you tell what's wrong with the bot's visual processor?
 
-![Eye doctor](./eye_doctor.jpeg "Eye doctor") 
+<img src="./eye_doctor.jpeg" width="500">
 
 ## Exploit
 

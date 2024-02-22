@@ -15,8 +15,8 @@ This is a book cipher where the book pages are Twitter post IDs.
 Can you figure out what she was trying to say?
 
 brck{1746200913432170593.11_1740398198542172490.3_789837700517945346.13}
-
-![Book cipher](./book-cipher.jpg "Book cipher") 
+ 
+<img src="./book-cipher.jpg" width="500">
 
 ## Exploit
 

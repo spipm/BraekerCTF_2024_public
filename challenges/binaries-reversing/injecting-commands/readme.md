@@ -18,7 +18,7 @@ Tested on 64-bit Macbook Pro (21.6.0 Darwin Kernel).
 
 Another bot needs your help! This time a Macho robot started giving itself commands, lots of them! What's going on in its head?
 
-![Injecting commands](./macho_robot.jpg "Injecting commands")
+<img src="./macho_robot.jpg" width="500">
 
 ## Exploit
 

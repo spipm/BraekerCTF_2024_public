@@ -20,7 +20,7 @@ This is IBM REXX code that was tested on an IBM mainframe. It is obfuscated and 
 
 Reversing can be tricky, as the docs aren't always super clear about things, and things like X2C can be confusing because it uses EBCDIC instead of ASCII character conversion. 
 
-The code heavily relies on using confusing [stem](https://www.ibm.com/docs/en/cics-ts/6.1?topic=stems-using) variables. The first part just uses stem variables and some IBM function to obfuscate 'WELC0ME', which is then used as the xor key to deobfuscate the rest. See solve.py on how to decode it.
+The code heavily relies on using confusing [stem](https://www.ibm.com/docs/en/cics-ts/6.1?topic=stems-using) variables. The first part just uses stem variables and some IBM functions to obfuscate 'WELC0ME', which is then used as the xor key to deobfuscate the rest. See solve.py on how to decode it.
 
 The rest looks like the following. It uses a bunch of IBM function to obfuscate 'T0' and 'M4INFR4M3REXX'.
 

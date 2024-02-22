@@ -19,7 +19,7 @@ The hospital hired you to perform the procedure. Do you think you can manage?
 The embryo is:
 f0VMRgEBAbADWTDJshLNgAIAAwABAAAAI4AECCwAAAAAAADo3////zQAIAABAAAAAAAAAACABAgAgAQITAAAAEwAAAAHAAAAABAAAA==
 
-![Embryobot](./embryobot.jpeg "Embryobot" | width=250)
+<img src="./embryobot.jpeg" width="250">
 
 ## Exploit
 

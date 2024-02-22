@@ -1,8 +1,8 @@
 ## Background
 
- Author: Shoaloak and spipm
- Category: Crypto / Hackcracking
- Difficulty: Easy
+  Author: Shoaloak and spipm
+  Category: Crypto / Hackcracking
+  Difficulty: Easy
 
 The story of this challenge references the [RNGesus](https://knowyourmeme.com/memes/rngesus) meme.
 
@@ -26,7 +26,7 @@ The bot quickly turns away to scribble new lines in the holy code. He turns back
 
 Can you praise this secured code?
  
-<img src="./messengesus2.jpg" width="500">
+<img src="./messengesus2.jpeg" width="500">
 
 ## Exploit
 
@@ -38,7 +38,8 @@ See solve.py. The idea is that on average, every ~128 request will have getline(
 
 See solve2.py. For the second part you know that the bytes never get xored with 0x0a, so you just keep getting bytes until there is 1 missing, and you xor that with 0x0a.
 
-## Flag
+## Flags
 
 brck{SiMPl1c1Ty_1s_K3Y_But_N0t_th3_4nSW3r}
+
 brck{St1ll_n0th1ng_bUt_4_b4by_p4d}

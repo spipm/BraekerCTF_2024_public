@@ -1,18 +1,12 @@
 # BraekerCTF 2024
 
-This is the source code from the BraekerCTF 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024.
-
-### Special thanks
+This is the source code from the BraekerCTF 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Stats can be found [here](./stats.md) and write-ups on [CTFTime](https://ctftime.org/event/2181).
 
 Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Gerard Arall](https://twitter.com/gerardarall) for their help and enthusiasm.
 
 ### Winners
 
 Congrats to the teams (teams) for winning the first, second and third place!
-
-### Stats and write-ups
-
-See [stats](./stats.md) for statistics and [CTFTime](https://ctftime.org/event/2181) for write-ups.
 
 
 ## Background

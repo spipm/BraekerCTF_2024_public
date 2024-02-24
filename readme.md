@@ -1,6 +1,6 @@
 # BraekerCTF 2024
 
-This is the source code from the BraekerCTF 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Status and results can be found [here](./results.md) and write-ups on [CTFTime](https://ctftime.org/event/2181).
+This is the source code from the BraekerCTF 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Status can be found [here](./stats.md).
 
 ### Winners
 
@@ -59,3 +59,7 @@ Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Ger
 AI images were generated with [DreamStudio](https://beta.dreamstudio.ai/), and ChatGPT was used for a bunch of things. For the mascot banner I used the Infinite image tool from [Runwayml](https://app.runwayml.com).
 
 I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/hecarii-tuica-si-paunii/x-mas-ctf-2022-challenges/-/tree/main/) for making their CTF open source, which made getting Docker to work alot easier.
+
+## Write-ups
+
+- [CTFTime](https://ctftime.org/event/2181)

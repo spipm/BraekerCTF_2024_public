@@ -1,5 +1,7 @@
 ## Statistics
 
+* Final [scoreboard](https://ctftime.org/event/2181)
+
 ### Users and Teams
 
 The graph below shows the grow of users and teams. The red lines indicate the start and stop of the CTF.

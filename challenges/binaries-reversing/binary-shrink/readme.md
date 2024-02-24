@@ -26,7 +26,7 @@ Can you run the program for her? Are you able to figure out what's in her memory
 
 ## Exploit
 
-One can just manually reverse the binary because it is so small. I used readelf and objdump to 'debug' it, and I used core dumps by injecting 0xcc (int3) near the end to double-check if the binary would properly decode the flag.
+One can just manually reverse the binary because it is so small. I used readelf and objdump to 'debug' it (see Makefile), and I used core dumps by injecting 0xcc (int3) near the end to double-check if the binary would properly decode the flag.
 
 ## Flag
 

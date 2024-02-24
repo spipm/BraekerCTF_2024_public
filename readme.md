@@ -1,8 +1,6 @@
 # BraekerCTF 2024
 
-This is the source code from the BraekerCTF 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Stats can be found [here](./stats.md) and write-ups on [CTFTime](https://ctftime.org/event/2181).
-
-Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Gerard Arall](https://twitter.com/gerardarall) for their help and enthusiasm.
+This is the source code from the BraekerCTF 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Status and results can be found [here](./results.md) and write-ups on [CTFTime](https://ctftime.org/event/2181).
 
 ### Winners
 
@@ -37,7 +35,7 @@ While in the library, waiting for someone, I browsed [C++ en Numerieke Wiskunde]
 
 Some challenges were taken from nominations for [best web hacking techniques](https://portswigger.net/research/top-10-web-hacking-techniques-of-2023-nominations-open) of 2023 from Portswigger's James Kettle. Adnan Khan's [article](https://adnanthekhan.com/2023/12/20/one-supply-chain-attack-to-rule-them-all/) on supply chain attacks via Github Actions was the basis for the [Workspace](./challenges/programming-misc/workspace/) challenge.
 
-Last week I extracted PII from a manual at a client, which I thought was some neat Hollywood CSI stuff, so I created the [Eye doctor](./challenges/programming-misc/eye-doctor/) challenge around it. The idea is that blurring techniques, like a linear motion blur, are simple image convolution operations that sometimes can be reversed with a script like
+Last week I extracted blurred PII from a manual, which I thought was some neat Hollywood CSI stuff, so I created the [Eye doctor](./challenges/programming-misc/eye-doctor/) challenge around it. The idea is that blurring techniques, like a linear motion blur, are simple image convolution operations that sometimes can be reversed with a script like
 [this](https://github.com/opencv/opencv/blob/3.2.0/samples/python/deconvolution.py).
 
 ### Background - Webservices
@@ -52,7 +50,9 @@ For a client I needed to check the security of a Java application that uses a JA
 
 [Stuffy](./challenges/webservices/stuffy/) is just a Request Smuggling challenge, because it's all the rage these days.
 
-## Misc credits
+## Credits
+
+Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Gerard Arall](https://twitter.com/gerardarall) for their help and motivating enthusiasm, and to everyone for participating!
 
 [Ctfd.io](https://www.ctfd.io/) was used as a CTF platform. Both their service and their customer service are amazing, so I can highly recommend it.
 

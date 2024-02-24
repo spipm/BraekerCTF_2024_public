@@ -2,9 +2,9 @@ from pwn import *
 
 context.update(arch='amd64', os='linux')
 
-io = process("./fetusbot")
+# io = process("./fetusbot")
 # io = remote("172.17.0.2",2000)
-# io = remote("0.cloud.chals.io",26925)
+io = remote("0.cloud.chals.io",26925)
 
 # gdb.attach(io, "b *0x1337120")
 

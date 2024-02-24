@@ -4,8 +4,7 @@ This is the source code from the [BraekerCTF](https://ctftime.org/event/2181) 20
 
 ### Winners
 
-Congrats to the teams (teams) for winning the first, second and third place!
-
+Congrats to the teams thehackerscrew, KITCTF and TeamMidwayAtoll for winning the first, second and third place! They are awarded €769, €539 and €151 euros!
 
 ## Background
 

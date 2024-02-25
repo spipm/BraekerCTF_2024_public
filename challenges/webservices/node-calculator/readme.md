@@ -22,6 +22,8 @@ Sample request:
 
 ## Exploit
 
+The code accepts an Object as a parameter, which allows for a deserialization attack. Since JAXB allows access to setters from all classes in scope, you can create a Calculator class to send the flag to yourself.
+
 ```
 POST /NodeCalculator/nodeCalc HTTP/1.1
 Host: localhost:8080

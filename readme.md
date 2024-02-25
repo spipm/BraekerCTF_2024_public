@@ -1,6 +1,6 @@
 # BraekerCTF 2024
 
-This is the source code from the [BraekerCTF](https://ctftime.org/event/2181) 2024 by spipm (sipke@factosec.nl). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Stats [here](./stats.md).
+This is the source code from the [BraekerCTF](https://ctftime.org/event/2181) 2024 by spipm (Sipke). It is a jeopardy-style hacking competition, and it ran from 23 February 2024 to 24 February 2024. Stats [here](./stats.md).
 
 ### Winners
 

@@ -4,7 +4,7 @@ This is the source code from the [BraekerCTF](https://ctftime.org/event/2181) 20
 
 ### Winners
 
-Congrats to the teams thehackerscrew, KITCTF and TeamMidwayAtoll for winning the first, second and third place! They are awarded €769, €539 and €151 euros!
+Congrats to the teams thehackerscrew, KITCTF and TeamMidwayAtoll for winning the first, second and third place! They are awarded €769, €539 and €151!
 
 ## Background
 
@@ -20,7 +20,7 @@ Recently I was granted access to a testing environment of an IBM mainframe, so I
 
 ### Background - Crypto and hashcracking
 
-With the help of [Shoaloak](https://twitter.com/shoaloak) we created [messengesus](./challenges/crypto-hashcracking/messengesus), a variation on the clever [babypad](https://ctftime.org/writeup/17069) challenge by plonk from the TastelessCTF 2019. 
+With the help of [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) we created [messengesus](./challenges/crypto-hashcracking/messengesus), a variation on the clever [babypad](https://ctftime.org/writeup/17069) challenge by plonk from the TastelessCTF 2019. 
 
 The challenge [Flag-based key expansion](./challenges/crypto-hashcracking/flag-based-key-expansion/) was inspired by multiple things. First of all, some colleague dumped half his AD NTLM hash in Confluence, claiming that "you can't crack half a hash", and secondly because I made this [Depix](https://github.com/spipm/Depix) tool a couple of years ago. The tool was immensely overhyped on socials, but it's more neat than useful, just like deconvolution for the eye doctor challenge (see below). 
 
@@ -61,11 +61,9 @@ I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/he
 
 ## Write-ups
 
-- [CTFTime](https://ctftime.org/event/2181)
+- See [CTFTime](https://ctftime.org/event/2181) and [CTFWriteups](https://ctfwriteups.org/ctfs/65da3062ae8e3021f3d0612a) for most write-ups
 - Multiple challenges by [D13David](https://github.com/D13David/ctf-writeups/blob/main/braekerctf24/README.md). Excellent write-up on The Mainframe Speaks.
 - Binaryshrink by [Mahmoud Elfawair](https://mahmoudelfawair.medium.com/breakerctf-24-binaryshrink-4cc9feae0259)
 - Empty execution by [Sumeet darekar](https://noobstain.medium.com/braekerctf-2024-243144d2a29e)
 - Fetusbot by [rpm0618](https://gist.github.com/rpm0618/d873e9685f723b1b8f1bbdd490739377)
-
-    
-
+- Block construction by [wepfen](https://wepfen.github.io/posts/block_construction/)

@@ -8,7 +8,7 @@ Credits for the small assembly ELF to go Brian Raiter [Teensy ELF article](https
 
 ## Technical
 
-This 64 bit PE writes user input to the stack and immediately `ret`s. It also has NX enabled, making this a ROP challenge. 
+This 64 bit ELF writes user input to the stack and immediately `ret`s. It also has NX enabled, making this a ROP challenge. 
 
 ## Story
 

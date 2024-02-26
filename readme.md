@@ -64,8 +64,10 @@ I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/he
 - See [CTFTime](https://ctftime.org/event/2181) and [CTFWriteups](https://ctfwriteups.org/ctfs/65da3062ae8e3021f3d0612a) for most write-ups
 - Some solve directories in this repo also include an writeups-chat directory with snippets thats were posted in the writeups Discord channel
 - Multiple challenges by [D13David](https://github.com/D13David/ctf-writeups/blob/main/braekerctf24/README.md). Excellent write-up on The Mainframe Speaks.
+- Multiple challenges by [M1sery](https://www.yuque.com/misery333/sz1apr/yzg2khgiaebotc5l?language=en-us). Includes Node Calculator and Stuffy.
 - Binaryshrink by [Mahmoud Elfawair](https://mahmoudelfawair.medium.com/breakerctf-24-binaryshrink-4cc9feae0259)
 - Empty execution by [Sumeet darekar](https://noobstain.medium.com/braekerctf-2024-243144d2a29e)
 - Fetusbot by [rpm0618](https://gist.github.com/rpm0618/d873e9685f723b1b8f1bbdd490739377)
 - Block construction by [wepfen](https://wepfen.github.io/posts/block_construction/)
 - Eye doctor by [sealldev](https://seall.dev/posts/eyedoctorbraekerctf2024)
+

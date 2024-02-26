@@ -25,7 +25,7 @@ Convince the leaderbot that too much shadow IT might be decremental to security.
 ## Exploit
 
 1. Login via null pwd
-2. Crack session secret, manually or with [Flask Unsign](https://github.com/Paradoxis/Flask-Unsign). Find that secret is 'Dashboard42!'.
+2. Crack session secret manually (Flask-Unsign breaks). Find that secret is 'Dashboard42!'.
 3. Perform memcache rce; use payload from article, sign cookie and make a request to /success.
 
 ## Flag

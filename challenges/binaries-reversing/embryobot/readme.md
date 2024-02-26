@@ -8,7 +8,7 @@ Credits for the small assembly ELF to go Brian Raiter [Teensy ELF article](https
 
 ## Technical
 
-This 32 bit PE binary is a 76 byte pwnable that immediately overwrites itself with input from stdin. Users only get two bytes, which they can use to jmp back to the start of their input.
+This 32 bit ELF binary is a 76 byte pwnable that immediately overwrites itself with input from stdin. Users only get two bytes, which they can use to jmp back to the start of their input.
 
 ## Story
 

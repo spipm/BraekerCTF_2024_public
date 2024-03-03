@@ -51,7 +51,7 @@ For a client I needed to check the security of a Java application that uses a JA
 
 ## Credits
 
-Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Gerard Arall](https://twitter.com/gerardarall) for their help and motivating enthusiasm, and to everyone for participating!
+Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Gerard Arall](https://twitter.com/gerardarall) for their enthusiasm about the project, which was very motivating. 
 
 [Ctfd.io](https://www.ctfd.io/) was used as a CTF platform. Both their service and their customer service are amazing, so I can highly recommend it.
 
@@ -70,4 +70,6 @@ I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/he
 - Fetusbot by [rpm0618](https://gist.github.com/rpm0618/d873e9685f723b1b8f1bbdd490739377)
 - Block construction by [wepfen](https://wepfen.github.io/posts/block_construction/)
 - Eye doctor by [sealldev](https://seall.dev/posts/eyedoctorbraekerctf2024)
-
+- Messengesus by [CrispLake](https://github.com/CrispLake/writeups/tree/master/braekerctf24/messengesus)
+- Stuffy by [tahdjao](https://github.com/tahdjao/writeup/blob/main/braekerctf/stuffy_en.md)
+- Injecting Commands by [Intrigus](https://intrigus.org/research/2024/03/03/braeker-ctf-2024-injecting-commands-writeup/)

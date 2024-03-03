@@ -57,7 +57,7 @@ Special thanks to [Axel Koolhaas](https://axelkoolhaas.com/) (Shoaloak) and [Ger
 
 AI images were generated with [DreamStudio](https://beta.dreamstudio.ai/), and ChatGPT was used for a bunch of things. For the mascot banner I used the Infinite image tool from [Runwayml](https://app.runwayml.com).
 
-I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/hecarii-tuica-si-paunii/x-mas-ctf-2022-challenges/-/tree/main/) for making their CTF open source, which made getting Docker to work alot easier.
+I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/hecarii-tuica-si-paunii/x-mas-ctf-2022-challenges/-/tree/main/) for making their CTF open source, which made getting Docker to work a lot easier.
 
 ## Write-ups
 

@@ -61,15 +61,15 @@ I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/he
 
 ## Write-ups
 
-- See [CTFTime](https://ctftime.org/event/2181) and [CTFWriteups](https://ctfwriteups.org/ctfs/65da3062ae8e3021f3d0612a) for most write-ups
-- Some solve directories in this repo also include an writeups-chat directory with snippets thats were posted in the writeups Discord channel
-- Multiple challenges by [D13David](https://github.com/D13David/ctf-writeups/blob/main/braekerctf24/README.md). Excellent write-up on The Mainframe Speaks.
-- Multiple challenges by [M1sery](https://www.yuque.com/misery333/sz1apr/yzg2khgiaebotc5l?language=en-us). Includes Node Calculator and Stuffy.
-- Binaryshrink by [Mahmoud Elfawair](https://mahmoudelfawair.medium.com/breakerctf-24-binaryshrink-4cc9feae0259)
-- Empty execution by [Sumeet darekar](https://noobstain.medium.com/braekerctf-2024-243144d2a29e)
-- Fetusbot by [rpm0618](https://gist.github.com/rpm0618/d873e9685f723b1b8f1bbdd490739377)
-- Block construction by [wepfen](https://wepfen.github.io/posts/block_construction/)
-- Eye doctor by [sealldev](https://seall.dev/posts/eyedoctorbraekerctf2024)
-- Messengesus by [CrispLake](https://github.com/CrispLake/writeups/tree/master/braekerctf24/messengesus)
-- Stuffy by [tahdjao](https://github.com/tahdjao/writeup/blob/main/braekerctf/stuffy_en.md)
-- Injecting Commands by [Intrigus](https://intrigus.org/research/2024/03/03/braeker-ctf-2024-injecting-commands-writeup/)
+- See [CTFTime](https://ctftime.org/event/2181) and [CTFWriteups](https://ctfwriteups.org/ctfs/65da3062ae8e3021f3d0612a) for most write-ups.
+- Some solve directories in this repo also include an writeups-chat directory with snippets thats were posted in the writeups Discord channel.
+- [Multiple challenges](https://github.com/D13David/ctf-writeups/blob/main/braekerctf24/README.md) by D13David. Excellent write-up on [The Mainframe Speaks](https://github.com/D13David/ctf-writeups/blob/main/braekerctf24/rev/mainframe/README.md).
+- [Multiple challenges](https://www.yuque.com/misery333/sz1apr/yzg2khgiaebotc5l?language=en-us) by M1sery. Includes Node Calculator and Stuffy.
+- [Binaryshrink](https://mahmoudelfawair.medium.com/breakerctf-24-binaryshrink-4cc9feae0259) by Mahmoud Elfawair.
+- [Empty execution](https://noobstain.medium.com/braekerctf-2024-243144d2a29e) by Sumeet Darekar.
+- [Fetusbot](https://gist.github.com/rpm0618/d873e9685f723b1b8f1bbdd490739377) by rpm0618.
+- [Block construction](https://wepfen.github.io/posts/block_construction/) by wepfen.
+- [Eye doctor](https://seall.dev/posts/eyedoctorbraekerctf2024) by sealldev.
+- [Messengesus](https://github.com/CrispLake/writeups/tree/master/braekerctf24/messengesus) by CrispLake.
+- [Stuffy](https://github.com/tahdjao/writeup/blob/main/braekerctf/stuffy_en.md) by tahdjao.
+- [Injecting Commands](https://intrigus.org/research/2024/03/03/braeker-ctf-2024-injecting-commands-writeup/) by Intrigus.

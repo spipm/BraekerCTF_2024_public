@@ -59,7 +59,7 @@ AI images were generated with [DreamStudio](https://beta.dreamstudio.ai/), and C
 
 I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/hecarii-tuica-si-paunii/x-mas-ctf-2022-challenges/-/tree/main/) for making their CTF open source, which made getting Docker to work a lot easier.
 
-## Write-ups
+## Write-ups and notes
 
 - See [CTFTime](https://ctftime.org/event/2181) and [CTFWriteups](https://ctfwriteups.org/ctfs/65da3062ae8e3021f3d0612a) for most write-ups.
 - Some solve directories in this repo also include an writeups-chat directory with snippets thats were posted in the writeups Discord channel.
@@ -72,4 +72,4 @@ I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/he
 - [Eye doctor](https://seall.dev/posts/eyedoctorbraekerctf2024) by sealldev.
 - [Messengesus](https://github.com/CrispLake/writeups/tree/master/braekerctf24/messengesus) by CrispLake.
 - [Stuffy](https://github.com/tahdjao/writeup/blob/main/braekerctf/stuffy_en.md) by tahdjao.
-- [Injecting Commands](https://intrigus.org/research/2024/03/03/braeker-ctf-2024-injecting-commands-writeup/) by Intrigus.
+- [Injecting Commands](https://intrigus.org/research/2024/03/03/braeker-ctf-2024-injecting-commands-writeup/) by Intrigus. Intrigus even created an [issue for Ghidra](https://github.com/NationalSecurityAgency/ghidra/issues/6271), and Ghidra was modified to be able to parse this Macho binary!

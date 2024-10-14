@@ -68,7 +68,7 @@ I'd also like to thank the creators of the [XMAS CTF 2022](https://gitlab.com/he
 - [Binaryshrink](https://mahmoudelfawair.medium.com/breakerctf-24-binaryshrink-4cc9feae0259) by Mahmoud Elfawair.
 - [Empty execution](https://noobstain.medium.com/braekerctf-2024-243144d2a29e) by Sumeet Darekar.
 - [Fetusbot](https://gist.github.com/rpm0618/d873e9685f723b1b8f1bbdd490739377) by rpm0618.
-- [Block construction](https://wepfen.github.io/posts/block_construction/) by wepfen.
+- [Block construction](https://wepfen.github.io/writeups/block_construction/) by wepfen.
 - [Eye doctor](https://seall.dev/posts/eyedoctorbraekerctf2024) by sealldev.
 - [Messengesus](https://github.com/CrispLake/writeups/tree/master/braekerctf24/messengesus) by CrispLake.
 - [Stuffy](https://github.com/tahdjao/writeup/blob/main/braekerctf/stuffy_en.md) by tahdjao.
